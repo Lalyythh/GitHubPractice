@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Shopping Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .product {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            margin: 10px;
+            width: 30%;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .price {
+            color: green;
+            font-weight: bold;
+            margin: 10px 0;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Welcome to Our Online Shop</h1>
+
+<div class="container">
+    <div class="product">
+        <img src="https://via.placeholder.com/150" alt="Product 1">
+        <h2>Product 1</h2>
+        <p class="price">$19.99</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="https://via.placeholder.com/150" alt="Product 2">
+        <h2>Product 2</h2>
+        <p class="price">$29.99</p>
+        <button>Add to Cart</button>
+    </div>
+    <div class="product">
+        <img src="https://via.placeholder.com/150" alt="Product 3">
+        <h2>Product 3</h2>
+        <p class="price">$39.99</p>
+        <button>Add to Cart</button>
+    </div>
+</div>
+
+</body>
+</html>
